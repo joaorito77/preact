@@ -1,0 +1,26 @@
+[
+    {
+        "title": "React",
+        "image": "react.svg",
+        "description":"Biblioteca JS para criar interfaces com componentes reutilizados",
+        "rating": 5
+    },
+    {
+    "title": "Next.js",
+    "image": "nextjs.svg",
+    "description": "Framework baseada em React, com rotas automáticas e renderização no servidor.",
+    "rating": 5
+  },
+  {
+    "title": "TypeScript",
+    "image": "typescript.svg",
+    "description": "JavaScript com tipos, que ajuda a evitar erros antes de executar o código.",
+    "rating": 4
+  },
+  {
+    "title": "Tailwind CSS",
+    "image": "tailwindcss.svg",
+    "description": "Framework de CSS com classes utilitárias para estilizar diretamente no JSX.",
+    "rating": 4
+  }
+]
