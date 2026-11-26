@@ -5,17 +5,9 @@ export default function Contador() {
 
     // Gestão de Estados
 
-    const [count, setCount] = useState(() => {
+    const [count, setCount] = useState(0)
 
-      const countStored = localStorage.getItem('count')
-      return countStored ? parseInt(countStored) : 0
-
-    })
-
-
-    useEffect (() => {
-      localStorage.setItem('count', `${count}`);
-    }, [count]);
+   
 
    
     // Renderização de componentes
